@@ -40,7 +40,7 @@ client.on('ready', async function () {
         )
         .setTimestamp()
 
-      client.channels.cache.get(process.env.CAHNNEL).send({ embed: embed })
+      client.channels.cache.get(process.env.CHANNEL).send({ embed: embed })
       currentBid = rawBid
     }
   }, 10000)
